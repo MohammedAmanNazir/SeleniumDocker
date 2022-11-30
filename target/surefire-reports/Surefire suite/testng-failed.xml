@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testpackage.TestClass2">
+        <methods>
+          <include name="layers"/>
+          <include name="caseschema_C"/>
+          <include name="outsidelabelpriority"/>
+          <include name="caseschema_A"/>
+          <include name="palletdesign"/>
+          <include name="B_button"/>
+          <include name="widthx1"/>
+          <include name="casepall1"/>
+          <include name="casedata"/>
+          <include name="caseschema_B"/>
+          <include name="homeIconbutton"/>
+          <include name="Basicparameter"/>
+          <include name="checkbox_cd2"/>
+          <include name="palletnamebutton"/>
+          <include name="x_negclick"/>
+          <include name="uncheckclic"/>
+          <include name="A_button"/>
+          <include name="selectVarient18_C"/>
+          <include name="casedataheight"/>
+          <include name="Orignalpal1"/>
+          <include name="x_rotationbutton"/>
+          <include name="casetype"/>
+          <include name="comparecaseDesign"/>
+          <include name="Closechromebrowser"/>
+          <include name="Selectlabel"/>
+          <include name="rulesymetriccheckbox"/>
+          <include name="palletname"/>
+          <include name="patternwizard"/>
+          <include name="designparameter"/>
+          <include name="labelwidth"/>
+          <include name="schema_c"/>
+          <include name="schema_a"/>
+          <include name="browseropen"/>
+          <include name="Labelposa"/>
+          <include name="autopreposclick"/>
+          <include name="labelname"/>
+          <include name="schema_b"/>
+          <include name="selectVarient3_B"/>
+          <include name="casedatalength"/>
+          <include name="Labelposb"/>
+          <include name="x_axis"/>
+          <include name="offsety1"/>
+          <include name="intermediatelayeruncheck2"/>
+          <include name="intermediatelayeruncheck1"/>
+          <include name="layer1"/>
+          <include name="labellength"/>
+          <include name="layercreator"/>
+          <include name="labelwizar"/>
+          <include name="programroutincreator"/>
+          <include name="z_axis"/>
+          <include name="Pre_PosZclick"/>
+          <include name="lengthy1"/>
+          <include name="y_rotationIconbut"/>
+          <include name="selectVarient17_A"/>
+          <include name="intermediatelayertype"/>
+          <include name="nr_click"/>
+          <include name="Pre_PosYclick"/>
+          <include name="mass"/>
+          <include name="y_axis"/>
+          <include name="casedatawidth"/>
+          <include name="editbutton"/>
+          <include name="labelcolour"/>
+          <include name="labeltype"/>
+          <include name="palletype"/>
+          <include name="offsetx1"/>
+          <include name="checkbox_cd"/>
+          <include name="Pallate_button"/>
+          <include name="z_rotationIconbut"/>
+          <include name="buttons"/>
+          <include name="summery"/>
+          <include name="C_button"/>
+          <include name="Pre_PosXclick"/>
+          <include name="pallethomebutton"/>
+          <include name="y_negclick"/>
+          <include name="texture"/>
+        </methods>
+      </class> <!-- testpackage.TestClass2 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

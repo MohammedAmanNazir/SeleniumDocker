@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testpackage.TestClass2">
+        <methods>
+          <include name="checkbox_cd"/>
+          <include name="labelcolour"/>
+          <include name="casetype"/>
+          <include name="offsetx1"/>
+          <include name="selectVarient3_B"/>
+          <include name="comparecaseDesign"/>
+          <include name="Pallate_button"/>
+          <include name="z_rotationIconbut"/>
+          <include name="palletname"/>
+          <include name="palletype"/>
+          <include name="patternwizard"/>
+          <include name="designparameter"/>
+          <include name="labelname"/>
+          <include name="browseropen"/>
+          <include name="Pre_PosZclick"/>
+          <include name="z_axis"/>
+          <include name="Labelposb"/>
+          <include name="Labelposa"/>
+          <include name="texture"/>
+          <include name="layer1"/>
+          <include name="labellength"/>
+          <include name="programroutincreator"/>
+          <include name="casepall1"/>
+          <include name="widthx1"/>
+          <include name="checkbox_cd2"/>
+          <include name="y_rotationIconbut"/>
+          <include name="homeIconbutton"/>
+          <include name="selectVarient17_A"/>
+          <include name="A_button"/>
+          <include name="nr_click"/>
+          <include name="Pre_PosYclick"/>
+          <include name="casedatawidth"/>
+          <include name="editbutton"/>
+          <include name="rulesymetriccheckbox"/>
+          <include name="Selectlabel"/>
+          <include name="labeltype"/>
+          <include name="schema_a"/>
+          <include name="autopreposclick"/>
+          <include name="y_negclick"/>
+          <include name="summery"/>
+          <include name="pallethomebutton"/>
+          <include name="schema_b"/>
+          <include name="labelwidth"/>
+          <include name="schema_c"/>
+          <include name="Closechromebrowser"/>
+          <include name="Pre_PosXclick"/>
+          <include name="casedatalength"/>
+          <include name="C_button"/>
+          <include name="x_axis"/>
+          <include name="labelwizar"/>
+          <include name="lengthy1"/>
+          <include name="offsety1"/>
+          <include name="intermediatelayeruncheck2"/>
+          <include name="intermediatelayeruncheck1"/>
+          <include name="palletdesign"/>
+          <include name="layercreator"/>
+          <include name="layers"/>
+          <include name="caseschema_A"/>
+          <include name="B_button"/>
+          <include name="casedata"/>
+          <include name="outsidelabelpriority"/>
+          <include name="caseschema_B"/>
+          <include name="caseschema_C"/>
+          <include name="uncheckclic"/>
+          <include name="Basicparameter"/>
+          <include name="Orignalpal1"/>
+          <include name="intermediatelayertype"/>
+          <include name="palletnamebutton"/>
+          <include name="casedataheight"/>
+          <include name="x_negclick"/>
+          <include name="selectVarient18_C"/>
+          <include name="mass"/>
+          <include name="y_axis"/>
+          <include name="x_rotationbutton"/>
+        </methods>
+      </class> <!-- testpackage.TestClass2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
