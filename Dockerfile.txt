@@ -1,0 +1,25 @@
+FROM maven:3.8.6-jdk-8 as maven
+COPY ./src ./src
+COPY ./target ./targat
+COPY ./test-output ./test-output
+COPY ./Resources ./Resources
+COPY ./pom.xml ./pom.xml
+COPY ./testng.xml ./testng.xml
+RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
+RUN apt-get update && apt-get -y install google-chrome-stable
+
+
+
+RUN mvn dependency:resolve-plugins
+RUN mvn package
+
+
+WORKDIR /src
+
+COPY --from=maven target/Sample2-*.jar ./Sample2.jar
+
+CMD ["java", "-jar", "./Sample1.jar"]
+
+
+
